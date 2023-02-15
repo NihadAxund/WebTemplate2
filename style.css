@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background: url("images/bg.png") center/cover no-repeat;
+    padding-bottom: 200px;
+}
+
+.links {
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d2d7d9;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.links>section {
+    display: inline-block;
+}
+
+.links> :nth-child(1) {
+    width: 20%;
+}
+
+.links> :nth-child(2) {
+    width: 75%;
+}
+
+.links> :nth-child(2)>a {
+    margin-left: 20px;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+    padding: 110px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 220px;
+    text-align: center;
+}
+
+
+.box> :nth-child(1) {
+    font-family: 'Cookie', cursive;
+    color: #2c3a42;
+    font-size: 5em;
+    margin: auto;
+}
+
+
+.box> :nth-child(2) {
+    font-family: 'Raleway', sans-serif;
+    font-size: 6.5vi;
+    color: #ad6c12;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+
+.box> :nth-child(3) {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #2c3a42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #2a3b40;
+    padding-bottom: 5%;
+}
+
+main .container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.container>section {
+    height: 100%;
+    display: inline-block;
+}
+
+.container h1 {
+    font-size: 2em;
+}
+
+.container p {
+    font-size: 1em;
+    width: 70%;
+}
+
+.container p,
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+
+.s-1 {
+    padding: 100px 0;
+    width: 100%;
+    background-color: #d4d8d9;
+}
+
+.items {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item {
+    width: 28%;
+}
+
+.item>h1,
+p {
+    color: #2a3b40;
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
+
+.circles {
+    display: flex;
+}
+
+.circles>span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #2a3b40;
+}
+
+
+.s-2 {
+
+    padding: 40vi 0;
+    width: 100%;
+    height: 180vi;
+    background: url("images/soup-near-assorted-spice.jpg") center/cover;
+
+
+}
+
+.s-2>.s2-1 {
+
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    width: 55vi;
+    margin-top: -35vi;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s_p {
+    font-family: 'Cookie', cursive;
+    font-size: 4.5vi;
+    color: #304751;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.s_p2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5vi;
+    color: #ad6c12;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.square {
+    margin: auto;
+    text-align: center;
+    color: red;
+    width: 13vi;
+    height: 13vi;
+    margin: 0;
+    padding: 0;
+}
+
+.square>img {
+    width: 100%;
+    height: 100%;
+}
+
+.sqt> :nth-child(1) {
+    margin-top: 4vi;
+}
+
+.square>p {
+
+    margin: auto;
+    margin-top: 0.5vi;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9vi;
+    width: 90%;
+
+    color: #2a3b40;
+}
+
+
+.square> :nth-child(1) {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.s-2>.s3 {
+    background-color: #d4d8d9;
+    margin-top: 5vi;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.s-2>.s3>h1 {
+    color: #2c3a42;
+    font-size: 2vi;
+}
+
+.s-2>.s3>p {
+    font-size: 1.5vi;
+    margin-top: 3vi;
+    margin-bottom: 2.5vi;
+    text-align: center;
+}
+
+.s-2>.s3>.circles>span {
+    width: 2.3vi;
+    height: 2.3vi;
+}
+
+.s-2>.s3>.p_list {
+    display: flex;
+}
+
+.s-2>.s3>.p_list>p {
+
+    margin-top: 2vi;
+    margin-left: 1.9vi;
+    margin-right: 1.9vi;
+    font-size: 1.3vi;
+    font-weight: bold;
+}
+
+.s-2>.s4 {
+    margin-top: 15vi;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.s-2 >.s4 >.Txt_section >.s_p{
+    font-size: 3.5vi;
+    margin-bottom: 0;
+}
+
+.s-2 >.s4 >.Txt_section >.s_p2{
+    font-size: 4vi;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+.s-2 > .s4 >.Txt_section{
+    width: 100%;
+    height: 25%;
+}
+
+.s-2 > .s4 >.Full_W{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+
+
+.s-2 > .s4 >.Full_W >  section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.s-2 > .s4 >.Full_W >  section > section{
+    margin-top: 1vi;
+    margin-left: 1vi;
+    display: flex;
+    justify-content: center;
+}
+
+.s-2 > .s4 >.Full_W >  section > section > .img_div{
+    width: 6.5vi;
+    height: 6.5vi;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.s-2 > .s4 >.Full_W >  section > section > div >img{
+    width: 70%;
+    height: 70%;
+}
+
+.s-2 > .s4 >.Full_W >  section > section >.txt_div{
+    margin: 0;
+    padding: 0;
+    margin-left: 1vi;
+    width: 55%;
+}
+
+.s-2 > .s4 >.Full_W >  section > section >.txt_div > p{
+    margin: 0;
+    padding: 0;
+}
+
+.s-2 > .s4 >.Full_W >  section > section >.txt_div >:nth-child(1){
+    font-size: 1.6vi;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.s-2 > .s4 >.Full_W >  section > section >.txt_div >:nth-child(2){
+    font-size: 1vi;
+    margin-top: 1vi;
+    text-align: left;
+    font-size: 1.2vi;
+
+}
+
+footer{
+    width: 100%;
+    height: 20vi;
+    background-color: #304751;
+}
