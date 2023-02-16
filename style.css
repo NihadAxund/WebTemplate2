@@ -296,25 +296,26 @@ p {
     display: flex;
     flex-direction: column;
 }
-.s-2 >.s4 >.Txt_section >.s_p{
+
+.s-2>.s4>.Txt_section>.s_p {
     font-size: 3.5vi;
     margin-bottom: 0;
 }
 
-.s-2 >.s4 >.Txt_section >.s_p2{
+.s-2>.s4>.Txt_section>.s_p2 {
     font-size: 4vi;
     margin-top: 0;
     margin-bottom: 0;
-    
+
 }
 
 
-.s-2 > .s4 >.Txt_section{
+.s-2>.s4>.Txt_section {
     width: 100%;
     height: 25%;
 }
 
-.s-2 > .s4 >.Full_W{
+.s-2>.s4>.Full_W {
     margin: 0;
     display: flex;
     width: 100%;
@@ -322,7 +323,7 @@ p {
 }
 
 
-.s-2 > .s4 >.Full_W >  section{
+.s-2>.s4>.Full_W>section {
     height: 100%;
     width: 50%;
     display: flex;
@@ -332,14 +333,14 @@ p {
 }
 
 
-.s-2 > .s4 >.Full_W >  section > section{
+.s-2>.s4>.Full_W>section>section {
     margin-top: 1vi;
     margin-left: 1vi;
     display: flex;
     justify-content: center;
 }
 
-.s-2 > .s4 >.Full_W >  section > section > .img_div{
+.s-2>.s4>.Full_W>section>section>.img_div {
     width: 6.5vi;
     height: 6.5vi;
     background-color: white;
@@ -350,30 +351,31 @@ p {
     border-radius: 100%;
 }
 
-.s-2 > .s4 >.Full_W >  section > section > div >img{
+.s-2>.s4>.Full_W>section>section>div>img {
     width: 70%;
     height: 70%;
 }
 
-.s-2 > .s4 >.Full_W >  section > section >.txt_div{
+.s-2>.s4>.Full_W>section>section>.txt_div {
     margin: 0;
     padding: 0;
     margin-left: 1vi;
     width: 55%;
 }
 
-.s-2 > .s4 >.Full_W >  section > section >.txt_div > p{
+.s-2>.s4>.Full_W>section>section>.txt_div>p {
     margin: 0;
     padding: 0;
 }
 
-.s-2 > .s4 >.Full_W >  section > section >.txt_div >:nth-child(1){
+.s-2>.s4>.Full_W>section>section>.txt_div>:nth-child(1) {
     font-size: 1.6vi;
     text-transform: uppercase;
     font-weight: bold;
 
 }
-.s-2 > .s4 >.Full_W >  section > section >.txt_div >:nth-child(2){
+
+.s-2>.s4>.Full_W>section>section>.txt_div>:nth-child(2) {
     font-size: 1vi;
     margin-top: 1vi;
     text-align: left;
@@ -381,8 +383,99 @@ p {
 
 }
 
-footer{
+footer {
     width: 100%;
-    height: 20vi;
+    height: 30vi;
     background-color: #304751;
+    display: flex;
+}
+
+footer>section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>.F1 {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer>.F1>div{
+    margin-top: 1vi;
+    margin-bottom: 1vi;
+}
+
+footer>.F1>*>p{
+    font-size: 1vi;
+    color: white;
+}
+
+footer>.F2>*>p {
+    color: white;
+    font-size: 1vi;
+    font-weight: bold;
+}
+
+footer>.F2 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.styled-select > select{
+    margin: 0;      
+    width: 20vi;
+    height: 2.2vi;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 6px;
+    font-size: 1.3vi;
+    padding-left: 1vi;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(images/arrow-button\ \(1\).png);
+    background-size: 7% 50%;
+    background-repeat: no-repeat;
+    background-position:97% center;
+}
+
+
+footer > .F2 > H1{
+    font-family: 'Cookie', cursive;
+    font-size: 6vi;
+}
+
+.F > div > input{
+    color: white;
+    border: 1px solid white;
+    font-size: 1.3vi;
+    width: 20vi;
+    height: 2.2vi;
+    border-radius: 6px;
+    background-color: transparent;
+}
+.F2>button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 20vi;
+    height: 2.2vi;
+    font-size: 1.3vi;
+
+}
+.Email_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
 }
